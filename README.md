@@ -1,4 +1,6 @@
-# MODX Codes: useful apps for MODX Revolution
+# MODX Codes
+
+Useful snippets and codes for MODX Revolution
 
 See the documentation in the README file of each directory.
 
