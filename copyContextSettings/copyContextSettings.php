@@ -2,6 +2,8 @@
 
 /* 
  * copyContextSettings
+ * The snippet for MODX Revolution
+ * See Documentation: https://github.com/dencodes/modx-codes/tree/master/copyContextSettings
  */
 
 $context = $modx->getOption('context', $scriptProperties);
