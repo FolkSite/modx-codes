@@ -31,5 +31,5 @@ Remove all the settings in the "de" context before copying:
 Copies all the settings from the "es" to multiple contexts:
 
 ```
-[[!copyContextSettings? &context=`es` &toContext=`de,ru,hu` &clear=`1` ]]
+[[!copyContextSettings? &context=`es` &toContext=`de,ru,hu` ]]
 ```
