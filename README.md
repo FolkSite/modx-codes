@@ -6,4 +6,5 @@ See the documentation in the README file of each directory.
 
 ## Snippets
 
-* *copyContextSettings* Snippet: Copies the settings from the context to the specified context (or multiple contexts).
+###copyContextSettings
+Copies the settings from the context to the specified context (or multiple contexts).
