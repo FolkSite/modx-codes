@@ -12,24 +12,24 @@ Basic usage - copies all the settings from the "es" to the "de" context
 
 Copies only specified settings - base_url,cultureKey.
 
-```html
+```
 [[!copyContextSettings? &context=`es` &toContext=`de` &settings=`base_url,cultureKey` ]]
 ```
 
 Do not copy settings that exist in the "de" context.
 
-```html
+```
 [[!copyContextSettings? &context=`es` &toContext=`de` &replace=`0` ]]
 ```
 
 Remove all the settings in the "de" context before copying.
 
-```html
+```
 [[!copyContextSettings? &context=`es` &toContext=`de` &clear=`1` ]]
 ```
 
 Copies all the settings from the "es" to multiple contexts.
 
-```html
+```
 [[!copyContextSettings? &context=`es` &toContext=`de,ru,hu` &clear=`1` ]]
 ```
