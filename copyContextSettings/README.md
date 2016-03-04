@@ -6,7 +6,7 @@ Copies the settings from the context to the specified context (or multiple conte
 
 Basic usage - copies all the settings from the "es" to the "de" context
 
-```html
+```
 [[!copyContextSettings? &context=`es` &toContext=`de` ]]
 ```
 
