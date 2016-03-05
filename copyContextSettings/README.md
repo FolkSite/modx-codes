@@ -33,3 +33,9 @@ Remove all the settings in the "de" context before copying:
 ```
 [[!copyContextSettings? &context=`es` &toContext=`de` &clear=`1` ]]
 ```
+
+Disable running script - &enable=`0`:
+
+```
+[[!copyContextSettings? &context=`es` &toContext=`de` &enable=`0` ]]
+```
