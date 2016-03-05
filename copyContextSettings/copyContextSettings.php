@@ -13,7 +13,7 @@ $settings = trim($modx->getOption('settings', $scriptProperties));
 $replace = $modx->getOption('replace', $scriptProperties, '1');
 $clear = $modx->getOption('clear', $scriptProperties);
 
-$enable = $modx->getOption('enable', $scriptProperties);
+$enable = $modx->getOption('enable', $scriptProperties, '1');
 
 if (!$enable || $enable == '0') {return '';}
 
