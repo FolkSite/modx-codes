@@ -13,6 +13,10 @@ $settings = trim($modx->getOption('settings', $scriptProperties));
 $replace = $modx->getOption('replace', $scriptProperties, '1');
 $clear = $modx->getOption('clear', $scriptProperties);
 
+$enable = $modx->getOption('enable', $scriptProperties);
+
+if (!$enable || $enable == '0') {return '';}
+
 $arr_to = array_map('trim',explode(',',trim($toContext)));
 
 $output = '';
