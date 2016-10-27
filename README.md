@@ -1,4 +1,4 @@
 # MODX Codes
 
-Useful snippets and codes for MODX Revolution
+Some useful snippets for MODX Revolution
 
